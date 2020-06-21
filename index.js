@@ -57,7 +57,7 @@ if (!message.member.roles.cache.find(r => r.name === 'Torcherer')){
         message.channel.send('**Haha ! My stomach hurts**');
         }
          else if(message.content.toLowerCase() === 'nah'){
-                message.channel.send('**Yes!**');
+                message.channel.send('**Yeah!**');
                 }
           else if(name ==='<'){
                           message.channel.send('**Stop pinging ma Boi!**');
