@@ -26,6 +26,9 @@ if (!message.member.roles.cache.find(r => r.name === 'Torcherer')){
         } else if(message.content.toLowerCase() === 'hi'){
                  message.channel.send('**Bye!**');
                  }
+   else if(message.content.toLowerCase() === 'stahp'){
+         message.channel.send('**Not at all**');
+                                  }
          else if(message.content.toLowerCase() === 'bye'){
             message.channel.send('**Hi!**');
               }
@@ -36,7 +39,7 @@ if (!message.member.roles.cache.find(r => r.name === 'Torcherer')){
                   message.channel.send('**Yes!**');
                   }
            else if(message.content.toLowerCase() === 'stop'){
-                  message.channel.send('**Why?**');
+                  message.channel.send('**Not at all!**');
                   }
             else if(message.content.toLowerCase() === 'lol'){
                    message.channel.send('**Lol So Funny**');
